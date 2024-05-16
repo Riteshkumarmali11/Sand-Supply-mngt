@@ -1,0 +1,123 @@
+.invoice-box {
+    max-width: 1000px;
+    margin-top: 8rem;
+    padding: 30px;
+    padding-bottom: 15px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title img {
+    width: 150px;
+}
+
+.invoice {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 3rem;
+}
+
+.company-info h1,
+.company-info h5 {
+    margin: 0;
+    padding-left: 4rem;
+}
+
+.invoice-details {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+}
+
+.invoice-details h2,
+.invoice-details p {
+    margin: 0;
+
+}
+
+.address-heading {
+    background-color: #f2f2f2;
+    /* Choose your desired background color */
+    padding: 10px;
+    margin-bottom: 0px;
+    /* Optional: Adjust margin as needed */
+}
+
+.addresses {
+    display: flex;
+    /* Remove margin */
+    padding: 10px;
+    /* Remove padding */
+}
+
+.bill-to,
+.ship-to {
+    flex: 1;
+}
+
+.ship-to{
+    justify-content: right;
+    float: right;
+}
+
+.subtotal{
+    display: flex;
+    background-color: #eee;
+    padding: 10px;
+}
+.tamt{
+flex: 1;
+}
+
+.product-table,
+.totals {
+    margin-top: 20px;
+}
+
+.product-heading {
+    display: flex;
+    background-color: #eee;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product-heading .item {
+    flex: 1;
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.totals p {
+    margin: 0;
+}
+.totals{
+    display: flex;
+}
+.details{
+    flex:1;
+}
+
+.signature img {
+    width: 30%;
+    margin-top: 20px;
+}

@@ -1,0 +1,53 @@
+.goog-logo-link {
+    display: none !important;
+  }
+ .div{
+    color: black;
+ }
+
+  div.goog-te-gadget {
+    color: rgb(4, 4, 4);
+  }
+
+  #google_translate_element img {
+    display: none !important;
+  }
+
+  #google_translate_element {
+    color: transparent;
+    text-size-adjust: 20px;
+  }
+
+  #google_translate_element a {
+    display: none;
+  }
+
+  .translate-widget {
+    position: relative;
+  }
+  
+  .globe-logo {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .globe-logo img {
+    cursor: pointer;
+  }
+  
+  .language-dropdown {
+    position: absolute;
+    top: 100%; /* Position the dropdown below the globe */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    z-index: 1000;
+  }
+  
+  .language-dropdown img {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
