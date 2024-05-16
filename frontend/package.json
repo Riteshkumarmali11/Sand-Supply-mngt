@@ -1,26 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "multer": "^1.4.5-lts.1",
-    "mysql": "^2.18.1",
-    "otp-generator": "^4.0.1",
-    "path": "^0.12.7"
-=======
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
@@ -97,6 +75,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> 7e5bc0d01 (Sand Supply)
   }
 }
